@@ -10,7 +10,7 @@ const app = Fastify();
  */
 
 app.get("/", async () => {
-  return { hello: "world" };
+  return "hello world" ;
 });
 
 app
