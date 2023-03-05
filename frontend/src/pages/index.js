@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
+
 //Todo dont forget about commits!!! do it!
 
 export default function Home() {
