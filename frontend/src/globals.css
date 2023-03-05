@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --color-primary: #2d3463;
+    --color-secondary: #b1cae7;
+    --color-bg: #f6f5f4; 
+    --dark-color: #131723; 
+}
+
+
+body, html {
+    @apply bg-[var(--color-bg)] font-sans;
+}
